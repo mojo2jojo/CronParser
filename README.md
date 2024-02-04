@@ -28,6 +28,7 @@ command        /usr/bin/find
     # navigate to dir having pom.xml file and run
     mvn clean package
     ```
+3. Unit test location: [CronparserApplicationTests](src/test/java/com/assignment/cronparser/CronparserApplicationTests.java)
 
 ## How to Run?
 
