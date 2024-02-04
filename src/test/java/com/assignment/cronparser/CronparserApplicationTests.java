@@ -47,14 +47,17 @@ public class CronparserApplicationTests {
         CronparserApplication.main(new String[]{"*/5 0-23 1-31 1-12 1-7 /usr/bin/find"});
 	}
 
+	@Test
 	public void complexStep() {
         CronparserApplication.main(new String[]{"1-59/2 0-23/3 1-31/5 1-12/2 1-7/4 /usr/bin/find"});
 	}
 
+	@Test
 	public void complexStep2() {
         CronparserApplication.main(new String[]{"*/15 0 1,15 * 1-5 /usr/bin/find"});
 	}
 
+	@Test
 	public void complexStep3() {
         CronparserApplication.main(new String[]{"0 0 31 12 7 /usr/bin/find"});
 	}
